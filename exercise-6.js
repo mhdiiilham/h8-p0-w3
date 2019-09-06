@@ -1,6 +1,13 @@
 function angkaPalindrome(num) {
     // you can only write your code here!
-    
+    while(true){
+      num++
+      var str = String(num)
+      var strReverse = str.split('').reverse().join('')
+      if(str === strReverse){
+        return Number(str)
+      }
+    }
   }
   
   // TEST CASES
