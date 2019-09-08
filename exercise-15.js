@@ -9,9 +9,9 @@ function groupAnimals(animals) {
             if(index0 === abjad[i]){
                 arr.push(animals[j])
             } 
-            } 
-            if(arr.length !== 0) {
-                kelompok.push(arr);
+        } 
+        if(arr.length !== 0) {
+            kelompok.push(arr);
         }
     }
     return kelompok
