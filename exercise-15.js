@@ -5,7 +5,7 @@ function groupAnimals(animals) {
     for(var i = 0; i <= abjad.length; i++){
         var arr = [];
         for(var j = 0; j <= animals.length - 1; j++){
-            var index0 = animals[j].charAt(0);
+            var index0 = animals[j][0];
             if(index0 === abjad[i]){
                 arr.push(animals[j])
             } 

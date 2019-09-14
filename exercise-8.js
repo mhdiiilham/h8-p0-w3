@@ -6,11 +6,12 @@ function pasanganTerbesar(num) {
        array[i] = Number(arr[i] + arr[i + 1]);
    }
    var sementara = array[0];
-   for(var j = 1; j < array.length; j++){
+   for(var j = 1; j < array.length ; j++){
        if(array[j] > sementara){
            sementara = array[j];
        }
    }
+   
    return sementara
   }
   
